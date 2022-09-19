@@ -1,0 +1,275 @@
+/*General*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+li {
+  display: inline-block;
+  padding: 18px;
+}
+a{
+	text-decoration: none;
+    font-family: 'Helvetica Regular';
+    src: url('Helvetica.eot');
+    src: url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype'),
+        url('Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+ul{
+	list-style-type: none;
+}
+H3{
+	font-size: 24px;
+	color: #171717;
+	font-family: 'Helvetica Bold';
+    src: url('HelveticaRounded-Bold.eot');
+    src: url('HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaRounded-Bold.woff2') format('woff2'),
+        url('HelveticaRounded-Bold.woff') format('woff'),
+        url('HelveticaRounded-Bold.ttf') format('truetype'),
+        url('HelveticaRounded-Bold.svg#HelveticaRounded-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+H2{
+	font-size: 28px;
+	color: white;
+	font-family: 'Helvetica Bold';
+    src: url('HelveticaRounded-Bold.eot');
+    src: url('HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaRounded-Bold.woff2') format('woff2'),
+        url('HelveticaRounded-Bold.woff') format('woff'),
+        url('HelveticaRounded-Bold.ttf') format('truetype'),
+        url('HelveticaRounded-Bold.svg#HelveticaRounded-Bold') format('svg');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+/*Header*/
+header{
+	background-color: #0A22F4;
+	height: 300px;
+}
+nav{
+	margin-top: 15px;
+}
+nav a{
+	color: white;
+	font-family: 'Helvetica Regular';
+    src: url('Helvetica.eot');
+    src: url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype'),
+        url('Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.navbar a:hover{
+text-transform: uppercase;
+}
+header button{
+		background-color: white;
+  	border: none;
+  	border-radius: 28px;
+  	color: #171717;
+  	padding: 18px 36px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	font-weight: bolder;
+  	cursor:pointer;
+}
+header button:hover{
+	text-transform: uppercase;
+}
+header img{
+	width: 115px;
+	height: 65px;
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 70px;
+}
+header img, header nav{
+	display: inline-block;
+ 	vertical-align: middle;
+}
+/*Section*/
+section{
+	margin-bottom: 30px;
+}
+.main-image{
+	width: 100%;
+	height: 450px;
+	margin-bottom: 30px;
+	margin-top: -100px;
+}
+.images img{
+	width: 145px;
+	height: 145px;
+	margin-right: 10.5px;
+}
+.images{
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 60px ;
+}
+.blog{
+	width: 800px;
+	margin: 0 auto;
+	background-color: white;
+	font-family: 'Helvetica Regular';
+    src: url('Helvetica.eot');
+    src: url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype'),
+        url('Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+section p{
+	line-height: 26px;
+	  font-family: 'Helvetica Regular';
+    src: url('Helvetica.eot');
+    src: url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype'),
+        url('Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+section button{
+		background-color: #0A22F4; /* Blue */
+  	border: none;
+  	border-radius: 28px;
+  	color: white;
+  	padding: 18px 57px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	font-weight: bolder;
+  	margin-top: 30px;
+  	margin-bottom: 90px;
+  	margin-left: 210px;
+  	cursor:pointer;
+}
+/*Footer*/
+footer{
+	background-color: #0A22F4;
+	height: 700px;
+	display: inline-block;
+	width: 100%;
+}
+iframe{
+	height: 150px;
+	width: 400px;
+	border-radius: 14px;
+	margin-bottom: 20px;
+}
+.footercon{
+	padding-top: 200px;
+	padding-left: 190px;
+}
+.footercon h2, .footercon p{
+	margin-bottom: 20px;
+}
+.footercon h2{
+	  font-family: 'Helvetica Bold';
+    src: url('HelveticaRounded-Bold.eot');
+    src: url('HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaRounded-Bold.woff2') format('woff2'),
+        url('HelveticaRounded-Bold.woff') format('woff'),
+        url('HelveticaRounded-Bold.ttf') format('truetype'),
+        url('HelveticaRounded-Bold.svg#HelveticaRounded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.footercon p{
+	  font-family: 'Helvetica Regular';
+    src: url('Helvetica.eot');
+    src: url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype'),
+        url('Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.minilogo img{
+	width: 42px;
+	height: 42px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 12px;
+}
+.minilogo{
+	width: 100%;
+	  font-family: 'Helvetica Bold';
+    src: url('HelveticaRounded-Bold.eot');
+    src: url('HelveticaRounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaRounded-Bold.woff2') format('woff2'),
+        url('HelveticaRounded-Bold.woff') format('woff'),
+        url('HelveticaRounded-Bold.ttf') format('truetype'),
+        url('HelveticaRounded-Bold.svg#HelveticaRounded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.call, .mail{
+	display: inline-block;
+ 	vertical-align: middle;
+ 	margin-right: 20px;
+}
+.call img, .call h6{
+	display: inline-block;
+ 	vertical-align: middle;
+ 	margin-right: 12px;
+}
+.mail img, mail h6{
+	display: inline-block;
+ 	vertical-align: middle;
+}
+.footercon p, .footercon h6, footer span{
+	color: white;
+}
+.love{
+	margin-left: 600px;
+}
+.love span{
+ 	vertical-align: middle;
+}
+.love .smart{
+	margin-left: 15px;
+}
+footer span, footer p{
+		font-family: 'Helvetica Regular';
+    src: url('Helvetica.eot');
+    src: url('Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica.woff2') format('woff2'),
+        url('Helvetica.woff') format('woff'),
+        url('Helvetica.ttf') format('truetype'),
+        url('Helvetica.svg#Helvetica') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*.copy p{
+margin-top: 100px;
+}*/
